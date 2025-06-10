@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'GyParodyFont'; /* Define the name you will use for the font */
+    src: url('file:///C:/Users/Mohammed%20Farhaan/Desktop/FONTS/gyparody%20hv.ttf') format('truetype');
+  }
+  
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'GyParodyFont', sans-serif;
+}
+
+
+#game{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    margin: -50px;
+}
+
+.card{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(26, 26, 255);
+    border-left: solid rgb(19 ,19,160)10px;
+    border-right: solid rgb(11 ,11 ,91)10px;
+    border-top: solid rgb(1 ,61,200)10px;
+    border-bottom: solid rgb(20 ,20,89)10px;
+    text-align: center;
+    font-size: 100px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 120px;
+}
+
+.first-button{
+    background-color: rgb(24, 171, 24);
+    height: 10px;
+}
+
+.second-button{
+    background-color: rgb(190 ,57, 37);
+    height: 10px;
+}
+
+.genre-title{
+    background-color: rgb(26, 26, 255);
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.correct-answer{
+    background-color: rgb(56, 238, 19);
+}
+
+.wrong-answer{
+    background-color: rgb(192, 46, 39);
+}
+
